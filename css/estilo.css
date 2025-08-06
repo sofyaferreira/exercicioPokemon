@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Pokemon';
+  src: url('../font/Pokemon Solid.ttf') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pokemonFundo1{
+    position: relative;
+    background-image: url("../img/pokemoncapa.jpg");
+    height: 100%;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt1 {
+    background-color: rgba(255, 0, 0, 0.796);
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    text-shadow: 2px 2px black;
+}
+
+.title {
+    font-family: "Pokemon", sans-serif;
+    font-size: 30px;
+    color: #ffcb05;
+    text-shadow: 2px 2px 0 #2a75bb;
+}
+
+.pokemonImg{
+    text-align: center;
+    font-family: "Pokemon", sans-serif;
+    font-size: 2.5rem;
+    color: #ffcb05;
+    text-shadow: 2px 2px 0 #000000;
+}
+
+.pokemonFundo2{
+    position: relative;
+    background-image: url("../img/pokemon.jpg");
+    height: 100%;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt2{
+    background-color: rgb(3, 154, 196);
+    font-family: "Pokemon", sans-serif;
+    font-size: 2.5rem;
+    color: #ffcb05;
+    text-shadow: 2px 2px 0 #000000;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+}
+
+.tituloImg{
+    font-family: "Pokemon", sans-serif;
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px 0 #002242; 
+}
+
+
+.txt3{
+    background-color: rgba(255, 255, 255, 0.734);
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: justify;
+    padding: auto;
+    text-shadow: 2px 2px 0 #000000;  
+}
+
+.pokemonFundo3{
+    position: relative;
+    background-image: url("../img/pokemonfundo3");
+    height: 100%;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt4{
+    font-family: "Pokemon", sans-serif;
+    font-size: 2.5rem;
+    color: #e9bb02;
+    text-shadow: 2px 2px 0 #000000;
+    position: absolute;
+    left: 0;
+    top: -5%;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+}
+
+.allPokemon{
+    display: flex;
+    justify-content: center;     /* centraliza horizontalmente */
+    align-items: center;         /* centraliza verticalmente */
+    height: 77%;
+}
+
+.curiosidades{
+    position: absolute;
+    left: 0;
+    top: 67%;
+    width: 100%;
+    background-color: rgba(77, 180, 214, 0.611);
+    color: rgb(0, 40, 86);
+    padding: 40px 0;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+
+.pokemonFundo4{
+    position: relative;
+    background-image: url("../img/wallpaper");
+    height: 100%;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.t{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-shadow: 0px 0px;
+}
+
+.txt5{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    text-shadow: 2px 2px 0 #000000; 
+}
